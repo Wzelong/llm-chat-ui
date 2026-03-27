@@ -1,0 +1,13 @@
+node_modules
+dist
+*.tsbuildinfo
+*.tgz
+.DS_Store
+*.local
+.env
+.env.*
+.next
+.angular
+.venv
+__pycache__
+.vscode
