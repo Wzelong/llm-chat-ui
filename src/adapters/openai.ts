@@ -10,7 +10,7 @@ export interface OpenAIAdapterOptions {
 export function createOpenAIAdapter(options: OpenAIAdapterOptions): ChatAdapter {
   const {
     apiKey,
-    model = "gpt-4o",
+    model = "gpt-5.4-mini",
     systemPrompt,
     baseURL = "https://api.openai.com/v1",
   } = options

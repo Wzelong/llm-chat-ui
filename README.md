@@ -41,11 +41,11 @@ createSSEAdapter({ url: "/api/chat" })
 
 // Direct to OpenAI
 import { createOpenAIAdapter } from "llm-chat-ui/adapters/openai"
-createOpenAIAdapter({ apiKey: "sk-...", model: "gpt-4o" })
+createOpenAIAdapter({ apiKey: "sk-...", model: "gpt-5.4-mini" })
 
 // Direct to Anthropic
 import { createAnthropicAdapter } from "llm-chat-ui/adapters/anthropic"
-createAnthropicAdapter({ apiKey: "sk-ant-...", model: "claude-sonnet-4-20250514" })
+createAnthropicAdapter({ apiKey: "sk-ant-...", model: "claude-sonnet-4-6-20250217" })
 
 // Custom
 const adapter: ChatAdapter = {

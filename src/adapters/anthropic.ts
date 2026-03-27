@@ -11,7 +11,7 @@ export interface AnthropicAdapterOptions {
 export function createAnthropicAdapter(options: AnthropicAdapterOptions): ChatAdapter {
   const {
     apiKey,
-    model = "claude-sonnet-4-20250514",
+    model = "claude-sonnet-4-6-20250217",
     systemPrompt,
     baseURL = "https://api.anthropic.com/v1",
     maxTokens = 4096,
