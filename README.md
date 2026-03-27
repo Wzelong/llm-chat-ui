@@ -3,7 +3,7 @@
 Portable LLM chat UI for React, Vue, and Angular. Plug in any model, get streaming chat with reasoning steps, tool use, file attachments, and markdown.
 
 <p align="center">
-  <img src="./assets/demo.gif" width="1280" height="720" alt="llm-chat-ui demo" />
+  <img src="./assets/demo.gif" width="1280" height="720" alt="llm-chat-ui demo" style="border: 1px solid #e5e5e5; border-radius: 12px;" />
 </p>
 
 ## Install

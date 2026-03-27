@@ -1,5 +1,5 @@
 {
-  "name": "llm-chat-ui",
+  "name": "@wzelong/llm-chat-ui",
   "version": "0.1.0",
   "description": "Portable LLM chat UI — plug in any model, get streaming chat with reasoning steps",
   "type": "module",
@@ -96,6 +96,9 @@
     "ui"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Wzelong/llm-chat-ui.git"
